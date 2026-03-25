@@ -1,15 +1,14 @@
 ---
-title: Dreams
-subtitle: Website Design
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+title: Kimini Device
+subtitle: Painless blood collection
+date: 2026-03-10
+img: portfolio/roundicons.png
+thumbnail: portfolio/roundicons.png
+alt: KiMiNi Device
+project-date: March 2026
+client: KiMiNi
+category: Product
+description: KiMiNi is a painless, self-operable blood collection device designed for home, clinic, and remote diagnostics. It collects clinical-grade blood samples without the pain and complexity of traditional venous draws.
 ---

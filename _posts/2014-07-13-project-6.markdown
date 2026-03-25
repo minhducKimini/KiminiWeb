@@ -1,15 +1,14 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+title: Vacutainer Compatibility
+subtitle: Seamless clinical integration
+date: 2026-03-10
+img: portfolio/dreams.png
+thumbnail: portfolio/dreams.png
+alt: Vacutainer Compatibility
+project-date: March 2026
+client: KiMiNi
+category: System Integration
+description: The KiMiNi system is engineered to interface with a wide range of commercially available vacutainers and vacuum blood collection tubes used across global healthcare systems. This compatibility enables the device to work seamlessly with tubes containing different additives such as anticoagulants, clot activators, and preservatives for diverse diagnostic applications. By supporting existing laboratory consumables, KiMiNi integrates smoothly into established medical workflows without requiring specialized proprietary tubes.
 ---

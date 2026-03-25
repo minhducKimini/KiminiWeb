@@ -1,15 +1,14 @@
 ---
-title: Startup Framework
-subtitle: Website Design
 layout: default
 modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+title: Optimized Microfluidic System
+subtitle: High-yield blood collection
+date: 2026-03-10
+img: portfolio/escape.png
+thumbnail: portfolio/escape.png
+alt: Microfluidic Blood Collection
+project-date: March 2026
+client: KiMiNi
+category: Technology
+description: Kimini integrates an optimized microfluidic pathway designed to maximize blood yield from capillary sources while maintaining stable flow and minimal clotting risk. The system efficiently channels collected blood into standardized medical consumables, ensuring compatibility with globally used laboratory tubes and diagnostic workflows. This design enables reliable sample volumes while seamlessly integrating with existing healthcare infrastructure worldwide.
 ---

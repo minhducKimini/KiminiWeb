@@ -2,45 +2,48 @@ url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Kimini Medical
+email: Contact@kimini-med.com
+description: "Painless and self-executable blood collection device for home, clinic, and remote diagnostics."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Nguyen Minh Duc (Ph.D.)
   pic: 1
-  position: Lead Designer
+  position: CEO
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/nguyenminhduc/
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Frank Nguyen (Ph.D.)
+  pic: 2
+  position: COO
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/lam-nguyen-ba6832264/
+
+- name: Mike Cuong (Ph.D.)
+  pic: 3
+  position: CSO
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/van-cuong-mai-9b6135131/
+
+- name: Duong Phan Khanh (Ph.D.)
+  pic: 4
+  position: CTO
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/phan-khanh-duong-a258a668/
+
+- name: Than Duc Huy
+  pic: 5
+  position: Tech Lead
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/than-duc-huy/
+    
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -57,8 +60,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: NTU Innovation Centre
+  - line: 71 Nanyang Drive, #03-01, Singapore 638075.
 
 # Build settings
 markdown: kramdown

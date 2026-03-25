@@ -1,15 +1,14 @@
 ---
-title: Treehouse
-subtitle: Website Design
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+title: Auto-retracted Actuation
+subtitle: User-friendly force delivery
+date: 2026-03-10
+img: portfolio/golden.png
+thumbnail: portfolio/golden.png
+alt: Autoretracted Actuation Mechanism
+project-date: March 2026
+client: KiMiNi
+category: Technology
+description: The KiMiNi device integrates a user-friendly autoretracted actuation mechanism that delivers a precise and consistent force pulse during skin puncture. The system automatically retracts after activation, ensuring safety, minimizing user effort, and enabling reliable operation without trained personnel. This design balances mechanical precision with intuitive usability for home and clinical settings.
 ---

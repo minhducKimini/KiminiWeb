@@ -9,7 +9,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+   		 <img src="img/logos/kimini-logo-white.png" alt="KiMiNi Medical" class="navbar-logo">
+		</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,17 +21,23 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Problem</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Technology</a>
                     </li>
+		    <li>
+   			<a class="page-scroll" href="#applications">Applications</a>
+	 	    </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Journey</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
+		    <li>
+    			<a class="page-scroll" href="#partners">Partners</a>
+		    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -41,15 +49,25 @@
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+<header>
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="{{ site.baseurl }}/img/header-video.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Integrated blood sampling technology</div>
+
+            <div class="intro-heading">Painless blood self-collection</div>
+
+            <div class="intro-subheading">
+                KiMiNi is developing an integrated blood sampling system designed to enable painless self-collection and expand access to blood testing in remote and difficult-to-draw settings
             </div>
+
+            <a href="#technology" class="page-scroll btn btn-xl">Explore the technology</a>
         </div>
-    </header>
+    </div>
+</header>
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
