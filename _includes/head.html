@@ -4,8 +4,15 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
-    <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ '/img/favicon/favicon.ico' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ '/img/favicon/favicon-96x96.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/img/favicon/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ '/img/favicon/web-app-manifest-192x192.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="512x512" href="{{ '/img/favicon/web-app-manifest-512x512.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/img/favicon/site.webmanifest' | relative_url }}">
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
