@@ -431,3 +431,14 @@ header .btn-xl:hover {
   padding-bottom: 55px !important;
 }
 
+/* ===== Section Titles ===== */
+section h2.section-heading,
+section .section-heading,
+#problem h2,
+#technology h2,
+#applications h2,
+#journey h2,
+#team h2,
+#partners h2 {
+    color: #38C088 !important;
+}

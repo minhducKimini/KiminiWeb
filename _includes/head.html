@@ -1,18 +1,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ '/img/favicon/favicon.ico' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ '/img/favicon/favicon-96x96.png' | relative_url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/img/favicon/apple-touch-icon.png' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ '/img/favicon/web-app-manifest-192x192.png' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="512x512" href="{{ '/img/favicon/web-app-manifest-512x512.png' | relative_url }}">
-    <link rel="manifest" href="{{ '/img/favicon/site.webmanifest' | relative_url }}">
+    <!-- ADD THIS -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:type" content="website">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/img/favicon/favicon-96x96.png">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="{{ site.baseurl }}/img/favicon/site.webmanifest">
+</head>
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">

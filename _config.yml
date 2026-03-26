@@ -3,8 +3,12 @@ baseurl: ""
 
 # Site settings
 title: Kimini Medical
-email: Contact@kimini-med.com
-description: "Painless and self-executable blood collection device for home, clinic, and remote diagnostics."
+email: contact@kimini-med.com
+description: >-
+  Kimini Medical is developing a painless blood self-collection system designed
+  to improve access to blood testing in difficult-to-draw and decentralized settings.
+url: "https://kimini-med.com"
+baseurl: ""
 
 
 # Team names, titles and social links
@@ -47,16 +51,8 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/company/kimini-medical
 
 # Postal address (add as many lines as necessary)
 address:
